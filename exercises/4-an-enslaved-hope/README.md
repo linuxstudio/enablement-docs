@@ -220,7 +220,7 @@ cd todolist-fe
 git checkout master
 ```
 
-2. Open the `todolist-fe` app in your favourite editor. Move to the `.openshift-applier` directory. Explore the `template/ocp-pipeline`. This template creates a BuildConfig for OpenShift with a Jenkinsfile from a given repo. In this case; it will be the `Jenkinsfile` at the root of our application.
+2. Open the `todolist-fe` app in your favourite editor. Move to the `.openshift-applier` directory. Explore the `templates/ocp-pipeline.yml`. This template creates a BuildConfig for OpenShift with a Jenkinsfile from a given repo. In this case; it will be the `Jenkinsfile` at the root of our application.
 
 3. Open the `params/ocp-pipeline` file and update `PIPELINE_SOURCE_REPOSITORY_URL` with the git url of your project (Don't forget to add the `.git` at the end). For example:
 ```
