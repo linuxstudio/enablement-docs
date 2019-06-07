@@ -72,6 +72,13 @@ dnf install git ansible docker
 systemctl enable docker
 systemctl start docker
 ```
+  4.a enable non-root user access to docker
+  ```bash
+  groupadd docker
+  systemctl restart docker
+  usermod -aG docker $USER 
+  ```
+
 5. Install the OpenShift 3.11 client binary.
 ```bash
 dnf install origin-clients
