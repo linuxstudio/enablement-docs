@@ -233,7 +233,7 @@ VOLUME_CAPACITY=5Gi
 MEMORY_LIMIT=1Gi
 ```
 
-4. Create a new object in the inventory variables `inventory/host_vars/ci-cd-tooling.yml` called `ci-cd-tooling` and populate its `content` is as follows
+4. Create a new object in the inventory variables `inventory/host_vars/ci-cd-tooling.yml` called `ci-cd-tooling` and populate its `content` as follows
 
 ```yaml
 ---
